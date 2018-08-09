@@ -11,7 +11,7 @@ import io.ktor.server.netty.Netty
 fun main(args: Array<String>) {
     embeddedServer(
             Netty,
-            watchPaths = listOf("kotlin-ktor-auto-reload-demo"),
+            watchPaths = listOf("kotlin-ktor-auto-reload-in-idea-demo"),
             port = 8080,
             module = Application::routes
     ).apply {
